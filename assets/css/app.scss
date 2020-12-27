@@ -1,0 +1,13 @@
+---
+---
+
+// Import Main CSS file from theme
+@import "main";
+
+.callout {
+    &-icon {
+        width: 16rem;
+        height: 16rem;
+        margin-bottom: 0.75rem;
+    }
+}

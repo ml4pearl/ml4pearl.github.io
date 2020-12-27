@@ -3,15 +3,21 @@ height: is-medium
 items:
   - title: Dr. Christine Allen-Blanchette
     subtitle: Co-founder
-    icon: fa-space-shuttle
+    icon: "/christine.png"
+    icon_profile: true
+    email: ca15@princeton.edu
+    website: https://cablanc.github.io/
     description: >
       Dr. Allen-Blanchette is a Presidential Postdoctoral Fellow in the Mechanical and Aerospace Engineering department at Princeton University. Their research is broadly focused on leveraging the underlying structure of data to improve and interpret learning outcomes in neural network models
-    call_to_action_name: Call to action 1
+    call_to_action_name: false
     call_to_action_link: /page-1/
   - title: Dr. Patricia Posey
     subtitle: Co-founder
-    icon: fa-wrench
+    icon: "/patti.png"
+    icon_profile: true	
     description: >
       Dr. Posey is a Provost's Postdoctoral Fellow in the Political Science department at the University of Chicago. Her research broadly examines the relationship between American political economy and race, with a focus on the links among capitalism, urban space, technology, and political behavior. 
-    call_to_action_name: Call to action 2
+    call_to_action_name: false
     call_to_action_link: /page-2/
+    email: pdposey@uchicago.edu
+    website: http://www.patriciaposey.com/
