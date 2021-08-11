@@ -1,0 +1,17 @@
+<div class="card">
+    <header class="card-header">
+        <a class="card-header-title" href="{{ post.link }}">{{ post.title}}</a>
+    </header>
+    <div class="card-content">
+        <div class="content">
+            {% if post.image %}
+	    <div class="card-image">
+              <img src="{{ post.image }}" alt="{{ post.title }}">
+	    </div>
+            {% endif %}
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+    </footer>
+</div>

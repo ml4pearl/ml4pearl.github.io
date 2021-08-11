@@ -3,7 +3,7 @@ height: is-medium
 items:
   - title: Dr. Christine Allen-Blanchette
     subtitle: Co-founder
-    icon: "/christine.png"
+    icon: "/assets/img/christine.png"
     icon_profile: true
     email: ca15@princeton.edu
     website: https://cablanc.github.io/
@@ -13,7 +13,7 @@ items:
     call_to_action_link: /page-1/
   - title: Dr. Patricia Posey
     subtitle: Co-founder
-    icon: "/patti.png"
+    icon: "/assets/img/patti.png"
     icon_profile: true	
     description: >
       Dr. Posey is a Provost's Postdoctoral Fellow in the Political Science department at the University of Chicago. Her research broadly examines the relationship between American political economy and race, with a focus on the links among capitalism, urban space, technology, and political behavior. 
@@ -21,3 +21,19 @@ items:
     call_to_action_link: /page-2/
     email: pdposey@uchicago.edu
     website: http://www.patriciaposey.com/
+  - title: Imaan Khasru
+    subtitle: Research Assistant
+    icon: "/assets/img/iKhasru_BioPic.png"
+    icon_profile: true	
+    description: >
+      Imaan Khasru is an Undergraduate Student Princeton University, pursuing a Bachelor of Arts Degree in Psychology and a Certificate in South Asian Studies. Her work in ML4PEARL consists widely of spatial analysis on racial and income inequality across US neighbourhoods, through mapping (in GIS) and statistical analysis (in R and Excel). Imaan’s primary academic interests centres on race (its representation, identity, and barriers) with a special focus on the postcolonial (and neocolonial) South Asian experience. She’s excited to use maps and data analysis to make elusive issues of racial inequality easier to see and understand in everyday life.
+    call_to_action_name: false
+    call_to_action_link: /page-3/
+  - title: Abhinav Agarwal
+    subtitle: Research Assistant
+    icon: "/assets/img/Agarwal_Abhinav.png"
+    icon_profile: true	
+    description: >
+      Abhinav is an undergraduate at Princeton pursuing Mechanical and Aerospace Engineering with certificates in Robotics, Engineering Physics, Applied and Computational Math, and Applications of Computing. His work at ML4PEARL focuses on machine learning and data collection. (MORE TO ADD AS TASKS ARE COMPLETED).
+    call_to_action_name: false
+    call_to_action_link: /page-4/

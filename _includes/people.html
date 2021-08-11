@@ -1,0 +1,59 @@
+{% if page.members %}
+{% assign types=site.data.[page.members] %}
+{% for type in types %}
+  <div class="hero-body">
+    <div class="columns is-multiline">
+    <div class="column is-12 p-6">
+    <p class="title is-3 has-text-centered">
+      <span>{{ type.title }}</span>
+    </p>
+    </div>
+    </div>
+    <div class="container">
+      <div class="columns is-multiline is-centered">
+        {% for person in type.members %}
+	{% assign id=person.name %}
+	{% assign callout=site.data.people.[id] %}
+        <div class="column is-4 has-text-centered">
+          {% if callout.icon %}
+          <div class="icon callout-icon">
+            {% if callout.icon_brand %}
+            <i class="fab {{ callout.icon }} fa-4x"></i>
+            {% elsif callout.icon_profile %}
+            <img src={{ callout.icon }} >
+	    {% else %}
+	    <i class="fas {{ callout.icon }} fa-4x"></i>	
+            {% endif %}
+          </div>
+          {% endif %}
+          <p class="title is-5">{{ callout.title }}</p>
+          <p class="subtitle is-5">{{ callout.subtitle }}
+	    {% if callout.icon_contact %}
+	    <a href="{{ callout.website }}" class="button is-small is-light is-rounded">
+              <span class="icon"><i class="fas fa-globe fa-2x"></i></span>
+            </a>
+	    <a href="mailto:{{ callout.email }}" class="button is-small is-light is-rounded">
+              <span class="icon"><i class="far fa-envelope fa-2x"></i></span>
+            </a>
+	    {% endif %}
+	  </p>
+          {% if callout.description %}
+	  {% if type.title == "Founders" %}
+          <div class="content">
+            <p>{{ callout.description | newline_to_br }}</p>
+          </div>
+          {% endif %}
+	  {% endif %}
+          {% if callout.call_to_action_name %}
+          <a href="{{ callout.call_to_action_link | relative_url }}" class="button is-primary">
+            {{ callout.call_to_action_name }}
+          </a>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+

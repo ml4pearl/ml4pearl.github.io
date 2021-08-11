@@ -1,0 +1,27 @@
+---
+layout: page
+title: Imaan Khasru
+person: imaan
+show_sidebar: false
+hero_height: is-small
+---
+
+{% assign person = site.data.people[page.person] %}
+<div class="box">
+<div class="columns">
+    <div class="column is-4">
+        {% include image-modal.html ratio="is-16by16" link=person.icon %}
+    </div>
+    <div class="column is-8">
+      {{ person.description }}
+    </div>
+</div>
+</div>
+
+<div class="box">
+<div class="columns">
+    <div class="column is-12">
+        {% include image-modal.html link="/assets/img/City Write-Ups.png" %}
+    </div>
+</div>
+</div>
