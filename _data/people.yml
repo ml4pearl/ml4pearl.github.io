@@ -37,6 +37,6 @@ abhinav:
   icon_profile: true
   icon_contact: false
   description: >
-    Abhinav is an undergraduate at Princeton pursuing Mechanical and Aerospace Engineering with certificates in Robotics, Engineering Physics, Applied and Computational Math, and Applications of Computing. His work at ML4PEARL focuses on machine learning and data collection. (MORE TO ADD AS TASKS ARE COMPLETED).
+    Abhinav is an undergraduate student at Princeton majoring in Mechanical and Aerospace Engineering with certificates in Robotics, Engineering Physics, Applied and Computational Math, and Computer Science. His work at ML4PEARL focuses on dataset generation (writing scripts to collect google street view images over a given city) and computer vision (training PyTorch based neural network to make predictions based on neighborhood images). His other academic interests lie in understanding how machine learning can be used to solve challenging problems like taking safety guarantees in robotics. He particularly enjoys drawing on concepts from classical physics and control theory to explore new ideas. 
   call_to_action_name: Read more
   call_to_action_link: /abhinav_agarwal/
