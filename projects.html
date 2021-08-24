@@ -7,28 +7,75 @@ permalink: /projects/
 <div class="box">
 <div class="columns">
     <div class="column is-4">
-        {% include image-modal.html ratio="is-16by16" link="/assets/img/neighborhood_effects.png" %}
+      {% include image-modal.html ratio="is-16by16" link="/assets/img/neighborhood_effects.png" %}
+      Image credit: <a href=/imaan_khasru/>Imaan Khasru</a>
     </div>
     <div class="column is-8">
       <p>
-	The Neighborhood Effects project investigates the implications of neighborhood characteristics for political behavior, taking particular care to distinguish between objective conditions of the neighborhood (e.g. percent in poverty) and subjective conditions of the neighborhood (e.g., presence of graffiti). This project creates a new measurement of neighborhood characteristics that can further the research agenda for scholars interested in neighborhood effects and is currently supported by the <a href="https://cst.princeton.edu/">Council for Science and Technology</a>.
+	The Neighborhood Effects project investigates the implications of neighborhood characteristics for political behavior, taking particular care to distinguish between objective conditions of the neighborhood (e.g. percent in poverty) and subjective conditions of the neighborhood (e.g., presence of graffiti). This project creates a new measurement of neighborhood characteristics that can further the research agenda for scholars interested in neighborhood effects.
+	<br><br>
+	The Neighborhood Effects project is currently supported by the <a href="https://cst.princeton.edu/">Council for Science and Technology</a>.
       </p>
     </div>
 </div>
 </div>
 
-<div id="imaan" class="box">
-<div class="columns">
-    <div class="column is-12">
+<div class="columns is-vcentered">
+  {% assign person = site.data.people.imaan %}
+<div class="column is-4">
+<div class="card">
+  <div class="card-image">
+    <figure class="image is-1by1">
+            <img src={{person.icon}}>
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-content">
+        <p class="title is-4"><a href={{person.link}}>{{person.title}}</a></p>
+        <p class="subtitle is-6">{{person.subtitle}} RA</p>
+      </div>
+    </div>
+
+<div class="content">
+  {{ person.short }}
+<br><br>
+Imaan's work is supported by the <a href="https://cst.princeton.edu/">Council for Science and Technology</a>.
+    </div>
+  </div>
+</div>
+</div>
+    <div class="column is-8">
         {% include image-modal.html link="/assets/img/City Write-Ups.png" %}
     </div>
-</div>
 </div>
 
-<div class="box">
-<div class="columns">
-    <div class="column is-12">
-        {% include image-modal.html link="/assets/img/City Write-Ups.png" %}
+<div class="columns is-vcentered">
+  {% assign person = site.data.people.abhinav %}
+<div class="column is-4">
+<div class="card">
+  <div class="card-image">
+    <figure class="image is-1by1">
+            <img src={{person.icon}}>
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-content">
+        <p class="title is-4"><a href={{person.link}}>{{person.title}}</a></p>
+        <p class="subtitle is-6">{{person.subtitle}} RA</p>
+      </div>
     </div>
+
+<div class="content">
+      {{ person.short }}
+<br><br>
+Abhinav's work is supported by the <a href="https://cst.princeton.edu/">Council for Science and Technology</a>.
+    </div>
+  </div>
 </div>
+</div>
+    <div class="column is-8">
+        {% include image-modal.html link="/assets/img/dataset.png" %}
+    </div>
 </div>

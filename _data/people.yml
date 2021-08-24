@@ -24,19 +24,25 @@ imaan:
   title: Imaan Khasru
   subtitle: Mapping and Analysis
   icon: "/assets/img/iKhasru_BioPic.png"
+  link: "/imaan_khasru/"
   icon_profile: true
   icon_contact: false
   description: >
     Imaan Khasru is an Undergraduate Student Princeton University, pursuing a Bachelor of Arts Degree in Psychology and a Certificate in South Asian Studies. Her work in ML4PEARL consists widely of spatial analysis on racial and income inequality across US neighbourhoods, through mapping (in GIS) and statistical analysis (in R and Excel). Imaan’s primary academic interests centres on race (its representation, identity, and barriers) with a special focus on the postcolonial (and neocolonial) South Asian experience. She’s excited to use maps and data analysis to make elusive issues of racial inequality easier to see and understand in everyday life.
+  short: >
+    Imaan Khasru is an Undergraduate Student Princeton University, pursuing a Bachelor of Arts Degree in Psychology and a Certificate in South Asian Studies. Her work in ML4PEARL consists widely of spatial analysis on racial and income inequality across US neighbourhoods, through mapping (in GIS) and statistical analysis (in R and Excel).
   call_to_action_name: Read more
   call_to_action_link: /imaan_khasru/
 abhinav:
-  title: Abhinav Agarwal
+  title: Abhinav
   subtitle: Computer Vision
   icon: "/assets/img/Agarwal_Abhinav.png"
+  link: "/abhinav_agarwal/"
   icon_profile: true
   icon_contact: false
   description: >
-    Abhinav is an undergraduate student at Princeton majoring in Mechanical and Aerospace Engineering with certificates in Robotics, Engineering Physics, Applied and Computational Math, and Computer Science. His work at ML4PEARL focuses on dataset generation (writing scripts to collect google street view images over a given city) and computer vision (training PyTorch based neural network to make predictions based on neighborhood images). His other academic interests lie in understanding how machine learning can be used to solve challenging problems like taking safety guarantees in robotics. He particularly enjoys drawing on concepts from classical physics and control theory to explore new ideas. 
+    Abhinav is an undergraduate student at Princeton majoring in Mechanical and Aerospace Engineering with certificates in Robotics, Engineering Physics, Applied and Computational Math, and Computer Science. His work at ML4PEARL focuses on dataset generation (writing scripts to collect google street view images over a given city) and computer vision (training PyTorch based neural network to make predictions based on neighborhood images). His other academic interests lie in understanding how machine learning can be used to solve challenging problems like taking safety guarantees in robotics. He particularly enjoys drawing on concepts from classical physics and control theory to explore new ideas.
+  short: >
+    Abhinav is an undergraduate student at Princeton majoring in Mechanical and Aerospace Engineering with certificates in Robotics, Engineering Physics, Applied and Computational Math, and Computer Science. His work at ML4PEARL focuses on dataset generation (writing scripts to collect google street view images over a given city) and computer vision (training PyTorch based neural network to make predictions based on neighborhood images)
   call_to_action_name: Read more
   call_to_action_link: /abhinav_agarwal/
